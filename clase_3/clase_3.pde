@@ -5,8 +5,10 @@ size (500,500);
 background (255); //<>// //<>//
 }
 
+//para que se ejecute infinitas veces 
 void draw () {
-  posX = posX + 1;
+  posX = posX + 10; //<>//
   println (posX);
- circle (posX, 250, 100); 
-}
+ circle (posX, 250, 50); 
+} 
+// hacer que la estela negra desaparezca 
